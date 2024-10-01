@@ -1,12 +1,12 @@
 
-output "aws_s3_dinesh_d_bucket_website_endpoint" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
+output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_dinesh_d_arn" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
   sensitive = false
 }
 
 
-output "aws_s3_dinesh_d_kms_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
+output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_dinesh_d_name" {
+  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
   sensitive = false
 }
 
@@ -19,6 +19,18 @@ output "aws_s3_dinesh_d_arn" {
 
 output "aws_s3_dinesh_d_bucket_name" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
+  sensitive = false
+}
+
+
+output "aws_s3_dinesh_d_bucket_website_endpoint" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
+  sensitive = false
+}
+
+
+output "aws_s3_dinesh_d_kms_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
   sensitive = false
 }
 
@@ -55,17 +67,5 @@ output "aws_iam_role_hello_kitty_role_dinesh_d_name" {
 
 output "aws_iam_role_hello_kitty_role_dinesh_d_arn" {
   value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn
-  sensitive = false
-}
-
-
-output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_dinesh_d_arn" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.arn
-  sensitive = false
-}
-
-
-output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_dinesh_d_name" {
-  value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
   sensitive = false
 }

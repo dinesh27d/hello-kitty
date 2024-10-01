@@ -42,7 +42,7 @@
       "bucket_name": "dinesh-d",
       "bucket_policy": "",
       "enable_versioning": true,
-      "enable_website_configuration": false,
+      "enable_website_configuration": true,
       "source": "./modules/aws_s3",
       "sse_algorithm": "aws:kms",
       "tags": {
